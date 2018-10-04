@@ -1,7 +1,7 @@
 # wisconsin-cancer-prediction
-__Predicting whether the tumor is Begign or Malignent from the Wisconsin Breast Cancer dataset__
+__Predicting whether the tumor is Benign or Malignent from the Wisconsin Breast Cancer dataset__
 - - - -
-This project helps in predicting whether the tumor is begign or malignent based on numerous features. Wisconsin Breast Cancer dataset, available under sci-kit learn, provides 569 datapoints along with 30 distinct attributes.
+This project helps in predicting whether the tumor is benign or malignent based on numerous features. Wisconsin Breast Cancer dataset, available under sci-kit learn, provides 569 datapoints along with 30 distinct attributes.
 
 Required dependencies:
 * [numpy](http://www.numpy.org/) - Numerical computation
