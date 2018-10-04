@@ -22,6 +22,7 @@ for n_neighbors in neighbors_range:
 print("Training confidence: {}".format(training_confidence) + "\n")
 print("Test confidence: {}".format(test_confidence) + "\n")
 
+#Confidence vs Neighbors Visualization
 plt.plot(neighbors_range, training_confidence, label = "Training Confidence")
 plt.plot(neighbors_range, test_confidence, label = "Test Confidence")
 plt.ylabel("Confidence")
