@@ -10,7 +10,7 @@ def main():
 
 def model():
 	cancer = load_breast_cancer()
-	train_data, test_data, train_target, test_target = train_test_split(cancer.data, cancer.target, random_state = 66)
+	train_data, test_data, train_target, test_target = train_test_split(cancer.data, cancer.target, test_size = 0.3)
 
 	classifier = KNearestNeighbor.CustomKNN()
 	classifier.fit(train_data, train_target)
